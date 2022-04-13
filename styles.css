@@ -1,0 +1,399 @@
+body {
+  font-family: 'Outfits', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Outfits";
+  font-weight: 700;
+  width: 30rem;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Outfits, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.top-container {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(images/bg-hero-desktop.svg);
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100px;
+  background-color:hsl(193, 100%, 96%);
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*logo */
+.top_logo {
+padding:4% 15% 1%;
+}
+.logo {
+  width: 30%;
+}
+
+
+/* TRY IT FREE BUTTON */
+.top-button-div {
+  text-align: center;
+  padding-left: 35rem;
+  padding-bottom: 0%;
+  padding-top: 3%;
+  height: 5rem;
+  width: 800px;
+}
+
+.top-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow:hsl(193, 100%, 96%);
+}
+.top-button a{
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.top-button:hover {
+  opacity: 0.75;
+}
+
+
+
+
+.top-heading {
+  padding: 5% 5%;
+  position: relative;
+
+}
+
+.top-heading p {
+  width: 27rem;
+  font-family: 'Open sans' sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.top-heading h1 {
+
+}
+
+/* mockup */
+.mockups {
+  width: 100%;
+  bottom: 50rem;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  background-color:hsl(193, 100%, 96%);
+  }
+
+
+
+.mid-button {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  border-radius: 40px;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.mid-button a{
+text-align: center;
+color: white;
+font-weight: 700;
+text-decoration: none;
+line-height: 3.0;
+font-size: 1rem;
+padding: 4% auto;
+}
+
+.mid-button-div {
+  text-align: left;
+  padding-right: 0px;
+  height: 6rem;
+  width: 500px;
+
+}
+
+
+.mid-button:hover {
+  opacity: 0.7;
+}
+
+
+
+/* MID SECTION */
+.mid-container {
+  position: relative;
+  width: 100%;
+}
+
+.text-cl {
+  padding-top: 0.3rem;
+  width: 27rem;
+}
+
+.image-cl {
+  text-align: center;
+}
+
+.all-heading {
+  display: inline-block;
+  position: relative;
+}
+
+.all-heading h2 {
+
+}
+
+/* FIRST BOX */
+.first-box {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 0 6px hsl(208, 11%, 55%);
+  padding: 3% 10%;
+  border-radius: 15px;
+  margin: 6rem auto 1rem;
+}
+
+.first-box-text {
+  display: inline-block;
+  position: relative;
+  font-weight: 450;
+  font-size: 0.920rem;
+  line-height: 1.5;
+}
+
+.first-box-image {
+  display: inline-block;
+  width: 70%;
+  margin: auto 10% auto 25%;
+}
+
+/* SECOND BOX */
+.second-box {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 0 6px hsl(208, 11%, 55%);
+  padding: 3% 10%;
+  border-radius: 15px;
+  margin: 2.5rem 0.5rem ;
+}
+
+.second-box-text {
+  display: inline-block;
+  position: relative;
+  font-weight: 450;
+  font-size: 0.920rem;
+  line-height: 1.5;
+}
+
+.second-box-image {
+  display: inline-block;
+  width: 70%;
+  margin: 3% 15% auto 5%;
+}
+
+
+/* THIRDT BOX */
+.third-box {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 0 6px hsl(208, 11%, 55%);
+  padding: 3% 10%;
+  border-radius: 15px;
+  margin: 6rem auto 1rem;
+}
+
+.third-box-text {
+  display: inline-block;
+  position: relative;
+  font-weight: 450;
+  font-size: 0.920rem;
+  line-height: 1.5;
+}
+
+.third-box-image {
+  display: inline-block;
+  width: 70%;
+  margin: auto 10% auto 25%;
+}
+
+
+
+
+
+/* bottom- */
+.bottom-box {
+  position: relative;
+  background-color: white;
+  width: 65%;
+  height: 14rem;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  border-radius: 10px;
+  margin: 0 auto;
+  z-index: 2;
+  top: 5rem;
+}
+
+.bottom-box-content {
+  margin: auto;
+  width: 28rem;
+  padding-top: 8%;
+}
+
+.bottom-box h2 {
+  font-size: 1.5rem;
+}
+
+.bottom-button {
+  display: inline-block;
+  position: relative;
+  background-color: hsl(322, 100%, 66%);
+  width: 60%;
+  border-radius: 40px;
+  height: auto;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.bottom-button:hover {
+  opacity: 0.75;
+}
+
+.bottom-button a{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  height: auto;
+  font-size: 0.8rem;
+}
+
+
+/* Bottom Container */
+.bottom-container {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  height: auto;
+  position: relative;
+  font-size: 0.75rem;
+  padding: 5% auto 0%;
+}
+
+.logo-row {
+  padding:15% 8% 2%;
+}
+
+.bottom-row {
+  padding: 0 8% 2%;
+}
+
+.grid {
+ margin: 0 auto;
+}
+
+.table {
+  color: white;
+}
+
+.table>tbody {
+  vertical-align: inherit;
+}
+
+.bottom-logo {
+  display: inline-block;
+  width: 17%;
+}
+
+
+.bottom-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-container a:hover {
+  text-decoration: underline;
+}
+
+
+.table {
+  color: white;
+}
+
+.social-icon {
+  margin: 0 auto;
+}
+
+.social-icon img {
+
+  border: 1px solid white;
+  width: 1.6rem;
+  border-radius: 100%;
+}
+
+.copyright {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+
+/* footer */
+footer {
+  background-color: hsl(192, 100%, 9%);
+  font-size: 0.60rem;
+  color: hsl(208, 11%, 55%);
+  text-align: center;
+  padding: inherit;
+  margin-left: 3rem;
+}
